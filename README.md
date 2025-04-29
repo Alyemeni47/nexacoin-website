@@ -10,7 +10,7 @@ NexaCoin is designed to revolutionize DeFi with community-focused innovations:
 
 - **2% Burn:** Every transaction burns 2% of the token supply, increasing scarcity and supporting price appreciation.
 - **1.5% Treasury Allocation:** Funds are allocated to a treasury wallet to power future developments, partnerships, and marketing.
-- **7.29% Monthly Staking Rewards:** Holders can stake their NexaCoin and earn attractive returns.
+- **10% Monthly Staking Rewards:** Holders can stake their NexaCoin and earn attractive returns.
 - **Transparent, Fair, and Secure:** Built on Solana for fast transactions and low fees.
 
 ---
