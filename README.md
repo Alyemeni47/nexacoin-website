@@ -1,47 +1,118 @@
 # NexaCoin - Official Website
 
-Welcome to the official website repository for **NexaCoin** — the future of decentralized finance!
+<p align="center">
+  <img src="generated-icon.png" alt="NexaCoin Logo" width="200" />
+</p>
 
----
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#development">Development</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#project-structure">Project Structure</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-## About NexaCoin
+## Overview
 
-NexaCoin is designed to revolutionize DeFi with community-focused innovations:
+NexaCoin (NEXA) is a Solana-based cryptocurrency designed to empower decentralized finance applications. With a focus on scalability, speed, and security, NexaCoin enables efficient transactions, innovative tokenomics, and robust utility for governance, staking, and ecosystem growth.
 
-- **2% Burn:** Every transaction burns 2% of the token supply, increasing scarcity and supporting price appreciation.
-- **1.5% Treasury Allocation:** Funds are allocated to a treasury wallet to power future developments, partnerships, and marketing.
-- **10% Monthly Staking Rewards:** Holders can stake their NexaCoin and earn attractive returns.
-- **Transparent, Fair, and Secure:** Built on Solana for fast transactions and low fees.
+The official NexaCoin contract address is: `6hfuCqboa6mqKCCnFuTDcQxzLmJLv31gBunbsY1qGX2w`
 
----
+Visit our website to learn more about NexaCoin and join our community!
 
-## Website Features
+## Features
 
-- Clean and mobile-friendly design
-- Direct link to **buy NexaCoin** on Raydium
-- Direct link to **stake NexaCoin** on the staking portal
-- Professional whitepaper summary
-- NexaCoin official logo and branding
+- ⚡️ **Lightning Fast**: Transactions complete in ~0.4 seconds thanks to Solana's high-throughput blockchain technology
+- 🔒 **Secure & Audited**: Built with industry-leading security standards and comprehensive smart contract audits
+- 🌍 **Ecosystem Ready**: Full support for DeFi applications, gaming, tokenization, and cross-chain compatibility
+- 📈 **Real-time Price Tracking**: Live price chart integration with DexScreener
+- 💼 **Wallet Integration**: Connect directly with popular Solana wallets including Phantom, Solflare, and more
+- 🔄 **Staking Opportunities**: (Coming Soon) Earn 10% APR when staking NexaCoin
+- 🔍 **Detailed Comparison**: Side-by-side analysis with XRP showing NexaCoin's advantages and unique features
 
----
+## Getting Started
 
-## Live Links
+### Prerequisites
 
-- [Buy NexaCoin on Raydium](https://raydium.io/swap/?inputMint=sol&outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R)
-- [Stake NexaCoin](https://nexacoin.online)
+- Node.js 16.0.0 or later
+- npm 7.0.0 or later
 
----
+### Installation
 
-## Technologies Used
+1. Clone the repository:
+```bash
+git clone https://github.com/nexacoin/website.git
+cd website
+```
 
-- HTML5
-- CSS3
-- Deployed with Replit and GitHub
+2. Install dependencies:
+```bash
+npm install
+```
 
----
+3. Start the development server:
+```bash
+npm run dev
+```
 
-## How to Run Locally
+4. Open your browser and navigate to `http://localhost:5000`
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/nexacoin-website.git
+## Development
+
+This project uses:
+
+- React for the frontend
+- Vite for fast development and builds
+- Express for the backend API
+- TailwindCSS for styling
+- Framer Motion for animations
+- React Query for data fetching
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run start` - Run the production build
+
+## Deployment
+
+The website is automatically deployed using Replit Deployments.
+
+## Project Structure
+
+```
+├── client/             # Frontend code
+│   ├── src/
+│   │   ├── assets/     # Static assets
+│   │   ├── components/ # React components
+│   │   ├── hooks/      # Custom hooks
+│   │   ├── lib/        # Utility functions
+│   │   ├── pages/      # Page components
+│   │   └── App.tsx     # Main application
+├── server/             # Backend code
+│   ├── routes.ts       # API routes
+│   └── storage.ts      # Data storage
+├── shared/             # Shared code between client and server
+└── package.json        # Project dependencies and scripts
+```
+
+## Contributing
+
+We welcome contributions to the NexaCoin website! Please read our [contributing guidelines](CONTRIBUTING.md) to get started.
+
+## Community
+
+Join our community channels:
+
+- [Telegram](https://t.me/nexadefi)
+- [Twitter](https://twitter.com/NEXADEFI)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+## Disclaimer
+
+Cryptocurrency investments involve risk. Always do your own research before investing.
